@@ -135,7 +135,7 @@ function Contact() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className={`bg-blue-500 text-white px-6 py-3 rounded hover:bg-amber-700 transition w-full font-semibold flex items-center justify-center ${
+              className={`bg-primary text-white px-6 py-3 rounded hover:bg-amber-700 transition w-full font-semibold flex items-center justify-center ${
                 isSubmitting ? "opacity-50 cursor-not-allowed" : ""
               }`}
             >

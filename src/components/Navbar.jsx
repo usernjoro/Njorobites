@@ -25,6 +25,9 @@ function Navbar() {
           <Link to="/contact" className="hover:text-primary">
             Contact
           </Link>
+          <Link to="/reservation" className="hover:text-primary">
+            Reservation
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}
@@ -90,7 +93,11 @@ function Navbar() {
           >
             Contact
           </Link>
-          <Link to="/reservation" className="hover:text-primary">
+          <Link
+            to="/reservation"
+            className="block hover:text-primary"
+            onClick={() => setIsOpen(false)}
+          >
             Reservation
           </Link>
         </div>
